@@ -1,0 +1,182 @@
+body
+{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f3f3f3;
+}
+
+
+/* LOGIN */
+
+.login-body
+{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.login-box
+{
+    background:white;
+    width:350px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 0 15px gray;
+}
+
+
+.login-box input
+{
+    width:90%;
+    padding:12px;
+    margin:10px;
+}
+
+
+button
+{
+    background:#ff9900;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+}
+
+
+
+/* HEADER */
+
+header
+{
+    background:#131921;
+    color:white;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:15px;
+}
+
+
+.logo
+{
+    font-size:30px;
+    font-weight:bold;
+}
+
+
+header input
+{
+    flex:1;
+    padding:12px;
+}
+
+
+
+/* NAV */
+
+nav
+{
+    background:#232f3e;
+    padding:15px;
+}
+
+
+nav a
+{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+
+
+
+/* BANNER */
+
+.banner
+{
+    background:#febd69;
+    text-align:center;
+    padding:50px;
+}
+
+
+
+/* CATEGORY */
+
+h2
+{
+    text-align:center;
+}
+
+
+.categories
+{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+
+.category
+{
+    background:white;
+    padding:15px;
+    width:200px;
+    text-align:center;
+}
+
+
+.category img
+{
+    width:200px;
+    height:150px;
+    object-fit:cover;
+}
+
+
+
+/* PRODUCTS */
+
+
+.products
+{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+
+.card
+{
+    background:white;
+    width:220px;
+    padding:15px;
+    text-align:center;
+}
+
+
+.card img
+{
+    width:200px;
+    height:180px;
+    object-fit:cover;
+}
+
+
+.card button
+{
+    background:#ff9900;
+}
+
+
+
+footer
+{
+    margin-top:40px;
+    background:#131921;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
